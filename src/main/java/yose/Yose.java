@@ -23,7 +23,7 @@ public class Yose {
                 response.contentType(JSON).body(gson.toJson(new Pong()));
             });
 
-            get("/").to((request, response) -> response.body("Hello Yose"));
+            get("/").to((request, response) -> response.body("Hello Yose : training scrum developer "));
 
         }});
     }

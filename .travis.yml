@@ -5,3 +5,8 @@ jdk:
 
 before_install:
  - chmod +x gradlew
+ 
+deploy:
+  provider: heroku
+  api_key: "d79ea24e-fddb-4db4-b178-6994a0a1a082"
+  app: teamyose
